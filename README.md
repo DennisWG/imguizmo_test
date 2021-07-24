@@ -1,7 +1,7 @@
 # Minimal reproducible example of ImGuizmo not working properly
-This repository to exist in showcasing a bug I've encountered while using [ImGuizmo](https://github.com/CedricGuillemet) ([the issue](https://github.com/CedricGuillemet/ImGuizmo/issues/192)).
+This repository exists to showcase a bug I've encountered while using [ImGuizmo](https://github.com/CedricGuillemet) ([the issue](https://github.com/CedricGuillemet/ImGuizmo/issues/192)).
 
-You can find the relevant code inside `main.cpp` inside the functions `render_viewport` and `render`.
+You can find the relevant code inside `main.cpp` within the functions `render_viewport` and `render`.
 While the former only renders 2 ImGui panels for you to play around with, the latter is responsible for rendering a cube to a framebuffer and then displaying said framebuffer inside a "viewport panel".
 It also displays the ImGuizmo's gizmo.
 
