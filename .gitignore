@@ -1,0 +1,4 @@
+/.vs
+/out
+/extern/Glad/out
+/extern/imgui/examples/example_android_opengl3/out
